@@ -51,8 +51,13 @@
   <ItemGroup>
     <Compile Include="Contracts\IConnectionStringService.cs" />
     <Compile Include="Contracts\IDatabaseService.cs" />
+    <Compile Include="Contracts\IGatewayService.cs" />
     <Compile Include="Executions\ConnectionStringService.cs" />
     <Compile Include="Executions\DatabaseService.cs" />
+    <Compile Include="Executions\GatewayServices.cs" />
+    <Compile Include="Models\Application.cs" />
+    <Compile Include="Models\Methods.cs" />
+    <Compile Include="Models\Resource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
