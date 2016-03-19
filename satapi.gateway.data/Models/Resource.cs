@@ -14,5 +14,6 @@ namespace satapi.gateway.data.Models
         public string version { get; set; }
         public List<Methods> methods { get; set; }
         public string authenticationType { get; set; }
+        public DateTime lastHearthbeat { get; set; }
     }
 }
