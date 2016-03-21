@@ -9,7 +9,7 @@ namespace satapi.gateway.data.Models
     public class Application
     {
         public int applicationId { get; set; }
-        public string name { get; set; }
+        public string applicationName { get; set; }
         public string apiKey { get; set; }
         public List<Resource> resources { get; set; }
     }
